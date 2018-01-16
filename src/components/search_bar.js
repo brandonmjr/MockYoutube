@@ -25,6 +25,7 @@ class SearchBar extends Component {
 			<div className="search-bar col-md-12">
 				<br/>
 				<input 
+				placeholder="Search Video Here!"
 				value = {this.state.term}
 				onChange={e => this.onInputChange(e.target.value)}/>
 				<br/>
